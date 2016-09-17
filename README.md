@@ -11,6 +11,6 @@ We need a set of filters to test for empty elements (dc:\[title,identifier,right
     1. if you're using oXygen, you can open both files, switch to the XSLT Debugger and hit the Blue Arrow to run/debug the transform.
     2. if you're using a downloaded Saxon and you're on Windows, I'm afraid that I lack sufficient familiarity with your platform to provide steps for testing this. :( sorry. 
     3. if you're using Mac or a *nix system there are a few options:
-        1. something like `$ java -jar /path/to/where/the/Saxon/download/landed/saxon9he.jar -s\:empty-element-test-advanced.xml -xsl\:empty-element-test.xsl`
-        2. or if you installed saxon from a package system `$ saxon -s:_input.xml_ -xsl:_stylesheet.xsl_`
+        1. something like `$ java -jar /path/to/where/the/Saxon/download/landed/saxon9he.jar -s:empty-element-test-advanced.xml -xsl:empty-element-test.xsl`
+        2. or if you installed saxon from a package system `$ saxon -s:input.xml -xsl:stylesheet.xsl`
          
