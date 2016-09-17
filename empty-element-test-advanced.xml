@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<things>
+	<thing no="abc">
+		<title>ABC Title</title>
+		<identifier> </identifier>
+		<identifier> http://foo.bar.baz/abc</identifier>
+		<rights></rights>
+	</thing>
+	<thing no="bcd">
+		<title>BCD Title</title>
+		<identifier>http://foo.bar.baz/bcd</identifier>
+		<rights>CC0</rights>
+	</thing>
+	<thing no="cde">
+		<title> </title>
+		<identifier>foo.bar.baz/cde</identifier>
+		<rights>CC1</rights>
+	</thing>
+	<thing no="def">
+		<title>DEF Title</title>
+		<identifier>def</identifier>
+		<identifier>http://foo.bar.baz/def</identifier>
+		<rights>CC2</rights>
+	</thing>
+	<thing no="efg">
+		<title>EFG Title</title>
+		<identifier>http://foo.bar.baz/efg</identifier>
+		<rights>CC3</rights>
+	</thing>
+</things>
